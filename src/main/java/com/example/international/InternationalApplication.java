@@ -44,7 +44,7 @@ public class InternationalApplication implements WebMvcConfigurer {
 
     @GetMapping("/international")
     public String getInternationalPage() {
-        return "thymeleaf/international";
+        return "international";
     }
 
 }
